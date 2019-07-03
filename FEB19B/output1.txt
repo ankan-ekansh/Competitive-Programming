@@ -1,0 +1,19 @@
+Win
+Lose
+Lose
+Lose
+Win
+Win
+Win
+Lose
+Lose
+Win
+Win
+Win
+Win
+Win
+Lose
+Win
+Win
+
+Time Elapsed : 0 s

@@ -1,0 +1,7 @@
+Case #1: ES
+Case #2: SSEEESES
+Case #3: EEEESSSS
+Case #4: SSSEEESSEE
+Case #5: EESSSESE
+
+Time Elapsed : 0.006 s

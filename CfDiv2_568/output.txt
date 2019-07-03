@@ -1,0 +1,13 @@
+1 2 
+second
+4-2
+second
+6-4
+first
+7-6
+first
+8-7
+2 2
+-1
+
+Time Elapsed : 0.002 s
