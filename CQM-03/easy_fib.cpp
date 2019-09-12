@@ -53,7 +53,8 @@ int main(){
             x/=2;
             c++;
         }
-        //cout<<c<<"\n";
+        cout << log2(n) << "\n";
+        cout<<c<<"\n";
         //cout<<c%60<<"\n";
         //cout<<p(c-1)<<"\n";
         //cout<<a[ (2*p(c-1) - 1) % 60]<<"\n";

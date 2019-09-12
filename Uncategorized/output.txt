@@ -1,2 +1,15 @@
-1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 
-Time Elapsed : 0.008 s
+i 0
+Index, bullet 0 4
+Index, Health, bullet 1 1 1
+Health, bullet 0 1
+Index, bullet 1 1
+Index, Health, bullet 1 0 1
+Health, bullet 0 1
+Index, bullet 1 1
+Index, Health, bullet 1 0 1
+Health, bullet 0 1
+4 3
+0 1
+5 5
+
+Time Elapsed : 0.001 s
