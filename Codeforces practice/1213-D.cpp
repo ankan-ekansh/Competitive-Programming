@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+int64_t pos[200007];
+int64_t ms[200007];
 int main(){
     #ifndef ONLINE_JUDGE
         freopen("input.txt", "rt", stdin);
@@ -9,24 +11,35 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n, k;
+    int64_t n, k;
     cin >> n >> k;
-    map<int, int> m;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        m[x]++;
+    int64_t a[n];
+    for(int64_t i=0;i<n;i++){
+        cin >> a[i];
     }
-    auto j = m.begin();
-    for(auto i=m.begin();i!=m.end();i++){
-        if((*i).second >= k){
-            cout << "0\n";
-            exit(0);
+    sort(a, a+n);
+    int64_t ans = INT64_MAX;
+    for(int64_t i=0;i<n;i++){
+        int64_t x = a[i];
+        int64_t count = 0;
+        pos[x]++;
+        if(pos[x] == k){
+            ans = min(ans, ms[x]);
         }
-        if((*i).second > (*j).second){
-            j = i;
+        while(x > 0){
+            x/=2;
+            count++;
+            pos[x]++;
+            ms[x]+=count;
+            if(pos[x] == k){
+                ans = min(ans, ms[x]);
+            }
         }
     }
+    cout << ans << "\n";
+
+
+
     
 
     #ifndef ONLINE_JUDGE

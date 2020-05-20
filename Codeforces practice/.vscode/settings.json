@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp",
+        "*.ipp": "cpp"
+    },
+    "competitive-programming-helper.firstTime": false
+}

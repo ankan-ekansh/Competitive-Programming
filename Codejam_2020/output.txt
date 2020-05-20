@@ -1,0 +1,7 @@
+Case #1: POSSIBLE
+2 1 2 
+2 2 1 
+4301388983 2 2 
+Case #2: IMPOSSIBLE
+
+Time Elapsed : 0.004 s

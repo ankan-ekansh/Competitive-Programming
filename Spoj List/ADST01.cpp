@@ -26,7 +26,7 @@ int64_t power(int64_t a, int64_t b){
 int main(){
     #ifndef ONLINE_JUDGE
         freopen("input.txt", "rt", stdin);
-        freopen("output.txt", "wt", stdout);
+        // freopen("output.txt", "wt", stdout);
     #endif
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);

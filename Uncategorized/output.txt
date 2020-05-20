@@ -1,15 +1,5 @@
-i 0
-Index, bullet 0 4
-Index, Health, bullet 1 1 1
-Health, bullet 0 1
-Index, bullet 1 1
-Index, Health, bullet 1 0 1
-Health, bullet 0 1
-Index, bullet 1 1
-Index, Health, bullet 1 0 1
-Health, bullet 0 1
-4 3
-0 1
-5 5
+POSITIVE
+NEGATIVE
+ZERO
 
-Time Elapsed : 0.001 s
+Time Elapsed : 0.001392 s

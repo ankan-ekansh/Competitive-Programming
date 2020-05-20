@@ -1,3 +1,2 @@
-Yes
 
-Time Elapsed : 0.001286 s
+Time Elapsed : 0 s

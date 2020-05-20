@@ -1,0 +1,3 @@
+6 4 24
+
+Time Elapsed : 0.007 s

@@ -1,10 +1,6 @@
-3
-6
-2
-5
 1
--1
--1
-7
+1
+2
+1
 
-Time Elapsed : 0.002 s
+Time Elapsed : 0.001896 s
