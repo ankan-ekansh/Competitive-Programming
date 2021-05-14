@@ -1,11 +1,2 @@
-10
-tourist
-petr
-wjmzbmr
-yeputons
-vepifanov
-scottwu
-oooooooooooooooo
-subscriber
-rowdark
-tankengineer
+4 1
+1 2 2 2

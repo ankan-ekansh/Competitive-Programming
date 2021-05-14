@@ -13,26 +13,47 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
     
-    int v;
+    ll v;
     cin >> v;
-    vector<pair<int, int>> a;
-    for(int i=1;i<=9;i++){
-        // cin >> a[i];
-        int x;
-        cin >> x;
-        a.push_back({x, i});
+    ll a[11];
+    ll min_v = 0x3f3f3f3f;
+    for(ll i=1;i<=9;i++){
+        cin >> a[i];
+        min_v = min(min_v, a[i]);
     }
-    sort(a.begin(), a.end());
-    vector<int> ans;
-    while(v > 0){
-        v-=a[0].first;
-        ans.push_back(a[0].second);
+    ll d = 0;
+    for(ll i=1;i<=9;i++){
+        if(a[i] == min_v){
+            d = max(d, i);
+        }
     }
-    reverse(ans.begin(), ans.end());
-    for(int x : ans){
-        cout << x;
+    ll l = v/min_v;
+    string ans = "";
+    for(ll i=0;i<l;i++){
+        ans.push_back((char)('0' + d));
     }
-    cout << "\n";
+    ll rem_v = v - min_v * l;
+    ll idx = 0;
+    while(rem_v > 0 && idx < l){
+        for(ll i=9;i>=1;i--){
+            // if(i == d){
+            //     continue;
+            // }
+            if(a[i] <= rem_v + min_v){
+                rem_v = rem_v + min_v - a[i];
+                ans[idx] = (char)(i + '0');
+                idx++;
+                break;
+            }
+        }
+    }
+    if(ans.length() == 0){
+        cout << "-1\n";
+    }
+    else{
+        cout << ans << "\n";
+    }
+
 
     #ifndef ONLINE_JUDGE
         cout<<"\nTime Elapsed : " << 1.0*clock() / CLOCKS_PER_SEC << " s\n";

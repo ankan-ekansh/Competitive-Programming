@@ -2,7 +2,27 @@
     "files.associations": {
         "iostream": "cpp",
         "random": "cpp",
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "ratio": "cpp",
+        "typeinfo": "cpp"
     },
-    "competitive-programming-helper.firstTime": false
+    "competitive-programming-helper.firstTime": false,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "c-cpp-compile-run.cpp-flags": "-Wall -Wextra -std=c++17",
+    "C_Cpp.default.compilerArgs": [
+        "-Wall -Wextra -std=c++17"
+    ],
 }
